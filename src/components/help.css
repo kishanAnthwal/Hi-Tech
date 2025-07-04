@@ -1,0 +1,59 @@
+.help {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    margin-bottom: -48px;
+}
+
+.callback-container {
+    background-color: var(--bs-light);
+    padding: 20px;
+    text-align: left;
+    flex-direction: column;
+}
+
+.callback-container p {
+    font-size: 1.3rem;
+    margin: 12px 0;
+}
+
+.callback-form {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.callback-form select,
+.callback-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.callback-form button {
+    background-color: var(--bs-dark-rgb);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.callback-form button:hover {
+    background-color: #084298;
+}
+
+@media (max-width: 768px) {
+    .callback-form {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .callback-form select,
+    .callback-form input,
+    .callback-form button {
+        width: 100%;
+    }
+}

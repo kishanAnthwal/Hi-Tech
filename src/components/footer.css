@@ -1,0 +1,93 @@
+footer {
+  position: relative;
+  padding:60px 30px;
+  align-items: flex-start !important;
+  background-color:var(--bs-dark-rgb);
+  color: white;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.footer-section {
+  width: 33%;
+}
+
+.footer-section h3 {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+.links li a{
+  color: #fff;
+}
+.inner_links{
+  margin-top: 25px;
+}
+
+.links li:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+}
+.gmail,.phone{
+  margin: 20px 0;
+}
+.gmail p,.phone p{
+margin: 3px 0;
+}
+.bottom_footer {
+height: 6vh;
+background-color: var(--bs-primary);
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+}
+.bottom_footer p{
+  text-align: center;
+  margin: 10px 0;
+}
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .footer-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
